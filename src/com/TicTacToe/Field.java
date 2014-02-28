@@ -44,7 +44,7 @@ public class Field {
         int x = coordinate.getX();
         int y = coordinate.getY();
 
-        if(x <= FIELD_SIZE && y <= FIELD_SIZE){
+        if(x < FIELD_SIZE && y < FIELD_SIZE){
             if(field[x][y] == ' '){
                 field[x][y] = c;
                 return true;

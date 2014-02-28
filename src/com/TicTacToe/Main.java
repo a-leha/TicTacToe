@@ -17,7 +17,7 @@ public class Main {
                 }
                 game.showField();
                 if(game.checkWin()){
-                    break;
+                   break;
                 }
             }
             else{
