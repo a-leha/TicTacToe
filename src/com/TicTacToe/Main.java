@@ -34,6 +34,7 @@ public class Main {
         while(game.cleanCell());
 
         System.out.println("Game Over");
+        System.out.println("Game Over");
     }
 }
 
